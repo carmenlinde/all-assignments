@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media only screen and (min-width: 768px){
+    .rectangle{
+        height: 200px;
+        width: 100%;
+        background-color:#F5C6D6 ;
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        margin-bottom: 10px;  
+    }
+    .square1{
+        height: 170px;
+        background-color:#EE2E84 ;
+        grid-column: 1/2;
+        margin-right: 20px;
+        margin-bottom: 10px;       
+    }
+    .square2{
+        height: 170px;
+        background-color:#EE2E84 ;
+        grid-column: 2/3;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .square3{
+        height: 170px;
+        background-color:#EE2E84 ;
+        grid-column: 3/4;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .square4{
+        height: 170px;
+        background-color:#EE2E84 ;
+        grid-column: 4/5;
+        margin-bottom: 10px;
+     }
+    .rect2{
+        height: 150px;
+        background-color:#85CFD8;
+        grid-column: 1/3;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .rect3{
+        height: 150px;
+        background-color:#85CFD8;
+        grid-column: 3 /-1;
+    }
+    .rect4{
+        height: 150px;
+        background-color: #8DC63F;
+        margin-right: 20px;
+        grid-column: 1/4;
+     }
+
+     .rect5{
+        height: 150px;
+        background-color: #E76E34;
+        grid-column: 4/5;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width:768px){
+    .rectangle{
+        height: 200px;
+        background-color:#F5C6D6 ;
+        grid-column: 1/-1;
+        margin-bottom: 10px;    
+    }
+    .square1{
+        height: 170px;
+        background-color:#EE2E84 ;
+        grid-column: 1/-1;
+        margin-bottom: 10px;
+    }
+    .square2{
+        height: 170px;
+        background-color:#EE2E84 ;
+        grid-column: 1/-1;
+        margin-bottom: 10px;
+    }
+    .square3{
+        height: 170px;
+        background-color:#EE2E84 ;
+        grid-column: 1/-1;
+        margin-bottom: 10px;
+    }
+    .square4{
+        height: 170px;
+        background-color:#EE2E84 ;
+        grid-column: 1/-1;
+        margin-bottom: 10px;
+    }
+    .rect2{
+        height: 150px;
+        background-color:#85CFD8;
+        grid-column: 1/-1;
+        margin-bottom: 10px;
+    }
+    .rect3{
+        height: 150px;
+        background-color:#85CFD8;
+        grid-column: 1 /-1;
+        margin-bottom: 10px;
+    }
+    .rect4{
+        height: 150px;
+        background-color: #8DC63F;
+        grid-column: 1/-1;
+        margin-bottom: 10px;
+    }
+
+    .rect5{
+        height: 150px;
+        background-color: #E76E34;
+        grid-column: 1/-1;
+    }
+}
+
+
+
+
+
